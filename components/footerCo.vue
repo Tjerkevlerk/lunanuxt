@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <header />
-  </div>
+  <footer>
+    fuck you too
+  </footer>
 </template>
 
 <script setup lang="ts">
