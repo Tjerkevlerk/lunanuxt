@@ -1,5 +1,6 @@
 <template>
   <div>
-    <h1>Welkom bij Luna's</h1>
+    <headerVue />
+    <header></header>
   </div>
 </template>
