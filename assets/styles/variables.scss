@@ -1,0 +1,12 @@
+$primary-color: #fbca28;
+$secondary-color: #076633;
+$accent-color:#066aab;
+$accent-light-color: #DEF2FF;
+$text-color: #333333;
+$background: #f5f5f5;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
