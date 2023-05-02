@@ -21,7 +21,7 @@ export default defineComponent({
       <p>
         Copyright ©<span v-bind:year="currentYear">{{ currentYear }}</span> Luna's Wild Rides
       </p>
-      <p><router-link to="privacy">Privacy</router-link> | <router-link to="disclaimer">Disclaimer</router-link></p>
+      <p><router-link to="Privacy">Privacy</router-link> | <router-link to="disclaimer">Disclaimer</router-link></p>
     </div>
     <div class="right">
       tripadvisor2

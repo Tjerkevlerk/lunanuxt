@@ -1,7 +1,7 @@
 <template>
-  <header id="header">
+  <header>
     <div id="logo">
-      <img src="~/assets/images/lunas wild rides - logo.svg">
+      <img src="../assets/images/lunas wild rides - logo.svg">
     </div>
   </header>
 </template>
@@ -11,6 +11,6 @@
 
 <style scoped>
 #logo img {
-  width: 20px;
+  width: 250px;
 }
 </style>
