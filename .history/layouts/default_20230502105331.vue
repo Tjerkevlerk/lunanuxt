@@ -1,8 +1,8 @@
 <template>
   <headerCo></headerCo>
   <mainMenu></mainMenu>
-  <slot />
   <footerCo></footerCo>
+  <slot />
 </template>
 
 <script lang="ts">

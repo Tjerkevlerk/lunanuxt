@@ -1,14 +1,15 @@
 <template>
   <headerCo></headerCo>
-  <mainMenu></mainMenu>
+  <menuv></menuv>
   <slot />
-  <footerCo></footerCo>
+  <footerv></footerv>
 </template>
 
 <script lang="ts">
 import headerCo from '~/components/headerCo.vue';
-import mainMenu from '~/components/main-menu.vue';
-import footerCo from '~/components/footerCo.vue';
+import menuv from '~/components/menuCo.vue';
+import footerv from '~/components/footerCo.vue';
+
 </script>
 
 <style scoped></style>
