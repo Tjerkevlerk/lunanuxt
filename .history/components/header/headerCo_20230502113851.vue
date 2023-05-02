@@ -1,7 +1,7 @@
 <template>
   <header>
     <div id="logo">
-      <img src="~/assets/images/lunaswildrideslogo.svg" alt="logo lunas wild rides">
+      <img src="'~/assets/images/lunaswildrideslogo.svg'">
     </div>
   </header>
 </template>

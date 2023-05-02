@@ -1,7 +1,7 @@
 <template>
   <header>
     <div id="logo">
-      <img src="~/assets/images/lunaswildrideslogo.svg" alt="logo lunas wild rides">
+      <img :src="require('~assets/images/lunas wild rides - logo.svg')">
     </div>
   </header>
 </template>
