@@ -1,14 +1,16 @@
 
 <template>
-  <h1>Homepage</h1>
-  <Button label="Submit" />
+  <v-card>
+    <h1>Homepage</h1>
+    <v-btn color="primary">Click me!</v-btn>
+  </v-card>
 </template>
 
 <script>
 import { createApp } from 'vue'
 
 export default {
-
+  import Calendar from 'primevue/calendar',
   layout: 'default',
   name: 'Homepage',
   created() {

@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import { NuxtConfig } from '@nuxt/types';
 import PrimeVue from 'primevue/config';
+import 'primevue/resources/themes/saga-blue/theme.css';
 
 const config: NuxtConfig = {
   modules: [

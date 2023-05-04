@@ -1,11 +1,12 @@
 
 <template>
   <h1>Homepage</h1>
-  <Button label="Submit" />
+  <Calendar v-model="date" />
 </template>
 
 <script>
 import { createApp } from 'vue'
+import Calendar from 'primevue/calendar'
 
 export default {
 

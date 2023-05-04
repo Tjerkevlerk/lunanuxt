@@ -1,8 +1,10 @@
 <template>
-  <headerCo></headerCo>
-  <mainMenu></mainMenu>
-  <slot />
-  <footerCo></footerCo>
+  <v-app>
+    <headerCo></headerCo>
+    <mainMenu></mainMenu>
+    <slot />
+    <footerCo></footerCo>
+  </v-app>
 </template>
 
 <script lang="ts">
