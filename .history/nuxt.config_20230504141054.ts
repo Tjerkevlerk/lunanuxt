@@ -14,9 +14,6 @@ const config: NuxtConfig = {
   vuetify: {
     // Vuetify options here
   },
-  plugins: [
-    '@/plugins/vuetify.ts',
-  ],
   axios: {
     baseURL: 'https://localhost:1337/api/',
   },
@@ -26,7 +23,6 @@ export default defineNuxtConfig({
 
   ssr: false,
   css: [
-    '~/assets/styles/main.scss',
-    'vuetify/dist/vuetify.min.css'
+    '~/assets/styles/main.scss'
   ]
 })

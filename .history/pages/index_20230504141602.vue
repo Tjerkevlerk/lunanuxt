@@ -1,9 +1,9 @@
 
 <template>
-  <v-card>
+  <div>
     <h1>Homepage</h1>
     <v-btn color="primary">Click me!</v-btn>
-  </v-card>
+  </div>
 </template>
 
 <script>

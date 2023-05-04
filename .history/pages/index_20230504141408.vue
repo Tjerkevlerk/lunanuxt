@@ -1,9 +1,8 @@
 
 <template>
-  <v-card>
+  <v-app>
     <h1>Homepage</h1>
-    <v-btn color="primary">Click me!</v-btn>
-  </v-card>
+  </v-app>
 </template>
 
 <script>
