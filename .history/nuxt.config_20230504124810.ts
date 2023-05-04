@@ -5,13 +5,15 @@ import { NuxtConfig } from '@nuxt/types';
 const config: NuxtConfig = {
   ssr: true,
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@vuestic/nuxt'
   ],
   axios: {
     baseURL: 'https://localhost:1337/api/',
   },
   css: [
-    '~/assets/styles/main.scss'
+    '~/assets/styles/main.scss',
+    'vuestic-ui/dist/vuestic-ui.css',
   ]
 }
 
