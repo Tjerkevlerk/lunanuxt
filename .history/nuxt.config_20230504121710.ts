@@ -15,5 +15,4 @@ const config: NuxtConfig = {
     'vuestic-ui/dist/vuestic-ui.css',
   ],
 
-  export default config
-}
+  // export default config
