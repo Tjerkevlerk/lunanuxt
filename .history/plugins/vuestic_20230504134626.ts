@@ -1,0 +1,7 @@
+nuxt.js: 93[nuxt] error caught during app initialization TypeError: Cannot read properties of undefined(reading 'component')
+    at vuesticPlugin(vuestic.ts: 6: 9)
+    at fn(nuxt.js: 203: 27)
+    at callWithNuxt(nuxt.js: 208: 12)
+    at applyPlugin(nuxt.js: 124: 29)
+    at applyPlugins(nuxt.js: 133: 11)
+    at async initApp(entry.js: 41: 7)

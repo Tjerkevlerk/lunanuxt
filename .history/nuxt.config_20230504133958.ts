@@ -1,12 +1,13 @@
 import Vue from 'vue';
 import { NuxtConfig } from '@nuxt/types';
+import * as VuesticComponents from 'vuestic-ui'
 
 const config: NuxtConfig = {
   modules: [
     '@nuxtjs/axios',
   ],
   plugins: [
-    '@/plugins/vuestic.ts'
+    '~/plugins/vuestic.ts'
   ],
   axios: {
     baseURL: 'https://localhost:1337/api/',

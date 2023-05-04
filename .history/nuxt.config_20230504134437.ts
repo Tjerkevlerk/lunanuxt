@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import { NuxtConfig } from '@nuxt/types';
+import * as VuesticComponents from 'vuestic-ui'
 
 const config: NuxtConfig = {
   modules: [
