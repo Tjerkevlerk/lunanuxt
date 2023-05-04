@@ -21,8 +21,10 @@
     "@nuxtjs/apollo": "^3.0.7",
     "@nuxtjs/strapi": "^1.9.1",
     "@nuxtjs/vuetify": "^1.12.3",
+    "@vuestic/nuxt": "^1.0.13",
     "axios": "^1.4.0",
     "nuxt-graphql-client": "^0.2.27",
+    "vuestic-ui": "^1.6.4",
     "yarn": "^1.22.19"
   }
 }
