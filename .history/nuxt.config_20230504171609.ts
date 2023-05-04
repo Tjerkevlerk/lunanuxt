@@ -1,7 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 import Vue from 'vue';
-import { NuxtConfig } from '@nuxt/types'; '
+import { NuxtConfig } from '@nuxt/types';
+import ElementPlus from 'element-plus';
+import 'element-plus/dist/index.css'
 
 const config: NuxtConfig = {
   modules: [
