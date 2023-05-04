@@ -2,7 +2,6 @@
 <template>
   <div>
     <div v-for="page in pages" :key="page.id">
-      <h1>{{ page.Title }}</h1>
       <div v-html="page.Description"></div>
     </div>
   </div>
