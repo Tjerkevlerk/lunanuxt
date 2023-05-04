@@ -1,0 +1,36 @@
+
+<template>
+  <div>
+    <h1>About</h1>
+
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent, ref, onMounted } from 'vue';
+import axios from 'axios';
+
+const Pages = defineComponent({
+  setup() {
+    const pages = ref([]);
+
+    // Use onMounted() to wait for the component to mount before fetching the pages
+
+    onMounted(async () => {
+      try {
+        const response = await axios.get('http://localhost:1337/api/Pages/1');
+        pages.value = response.data.data;
+      } catch (error) {
+        console.log('Error while fetching page:', error);
+      }
+    });
+
+    return { pages };
+  },
+});
+
+export default Pages;
+</script>
+
+<style lang="scss" scoped></style>
+

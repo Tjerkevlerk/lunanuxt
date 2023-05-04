@@ -10,11 +10,18 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.4.3"
+    "node-sass": "^8.0.0",
+    "nuxt": "^3.4.3",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2"
   },
   "dependencies": {
-    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@mdi/font": "^7.2.96",
+    "@nuxt/types": "^2.16.3",
+    "@nuxtjs/apollo": "^3.0.7",
     "@nuxtjs/strapi": "^1.9.1",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "axios": "^1.4.0",
     "nuxt-graphql-client": "^0.2.27",
     "yarn": "^1.22.19"
   }

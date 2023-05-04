@@ -1,0 +1,24 @@
+<template>
+  <div>
+
+  </div>
+</template>
+
+<script>
+export default {
+  import { reactive, onMounted } from 'vue';
+  export default {
+    const data = reactive({ faqs: [] })
+  } 
+  onMounted(() => {
+  axios.get(https://localhost:1337/api/faqs)
+    .then((response) => {
+    data.faqs
+  }),
+  })
+return {}
+  };
+}
+</script>
+
+<style lang="scss" scoped></style>

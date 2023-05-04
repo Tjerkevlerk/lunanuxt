@@ -1,0 +1,16 @@
+<template>
+  <header id="header">
+    <div id="logo">
+      <img src="~/assets/images/lunaswildrideslogo.svg" alt="logo lunas wild rides">
+    </div>
+  </header>
+</template>
+
+<script setup lang="ts">
+</script>
+
+<style scoped>
+#logo img {
+  width: 200px;
+}
+</style>
