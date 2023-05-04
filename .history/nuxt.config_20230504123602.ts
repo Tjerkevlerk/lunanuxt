@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import { NuxtConfig } from '@nuxt/types';
-import axios from '@nuxtjs/axios'
 
 const config: NuxtConfig = {
   ssr: true,
